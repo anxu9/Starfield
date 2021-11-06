@@ -7,7 +7,7 @@ class Particle
     myX = 400;
     myY = 400;
     mySpeed = (Math.random()*6)-4;
-    mySize = (Math.random()*15)-5;
+    mySize = (Math.random()*15)-9;
     myAngle = (Math.random()*3)*Math.PI;
     myColor = 255;
     myColors = #7df9ff;
