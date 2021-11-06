@@ -27,7 +27,7 @@ class Particle
   {
     noStroke();
     fill (myColors,myOpacity);
-    ellipse((float)myX,(float)myY,(float)mySize+2,(float)mySize+2);
+    ellipse((float)myX,(float)myY,(float)mySize+1,(float)mySize+1);
     fill (myColor,myOpacity);
     ellipse((float)myX,(float)myY,(float)mySize,(float)mySize);
   }
